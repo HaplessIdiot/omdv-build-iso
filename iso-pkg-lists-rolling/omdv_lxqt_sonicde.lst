@@ -137,6 +137,13 @@ sonic-qml-org.kde.plasma.workspace
 sonic-workspace
 sonic-workspace-x11
 sonic-workspace-wayland
+arcan
+qtarcan
+
+# steamdeck stuff
+steamdeck-dsp
+gamescope
+
 
 # OM special featured software
 #oma-welcome

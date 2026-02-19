@@ -1,97 +1,200 @@
-# Trinity Desktop Environment (TDE) - Full Install List
+# OpenMandriva Trinity Desktop Environment (TDE) Full List
+# Dedicated to zeroability and his awesome work on TDE so far
 
-# Meta Packages
+# --- Meta Packages ---
+# These pull in the base groups, but we list specific apps below
+# to ensure the ISO contains absolutely everything available.
 trinity-desktop
 trinity-desktop-all
 trinity-desktop-applications
 trinity-desktop-devel
 
-# Core Desktop & System
-trinity-arts
-trinity-arts-devel
-trinity-kcontrol
-trinity-kdesktop
-trinity-kdnssd
-trinity-khelpcenter
-trinity-kicker
-trinity-kiosktool
-trinity-kmenuedit
-trinity-kpersonalizer
-trinity-ksmserver
-trinity-ksplash
-trinity-ksysguard
-trinity-ksysguardd
-trinity-ktip
+# --- Core Desktop & System ---
 trinity-tdm
 trinity-twin
+trinity-kcontrol
+trinity-kdesktop
+trinity-kicker
+trinity-ksmserver
+trinity-ksplash
+trinity-kmenuedit
+trinity-kpersonalizer
+trinity-kdialog
+trinity-kdm
+trinity-ksysguard
+trinity-ksysguardd
+trinity-khelpcenter
+trinity-kdnssd
+trinity-kiosktool
+trinity-knewsticker
+trinity-kjobviewer
+trinity-klipper
+trinity-konsole
+trinity-kpager
+trinity-kfind
+trinity-khotkeys
+trinity-kedit
+trinity-kdebugdialog
+trinity-kcminit
+
+# --- Window Decoration & Themes ---
 trinity-twin-style-fahrenheit
 trinity-twin-style-machbunt
 trinity-twin-style-mallory
 trinity-twin-style-suse2
-
-# File Management & Utilities
-trinity-dolphin
-trinity-konqueror
-trinity-krusader
-trinity-kappfinder
-trinity-kfind
-trinity-krename
-trinity-kbackup
-trinity-keep
-trinity-klinkstatus
-trinity-kmousetool
-trinity-kshutdown
-trinity-kvkbd
-trinity-kompose
-trinity-kpager
+trinity-gtk3-tqt-engine
+trinity-kbfx
 trinity-kooldock
 trinity-superkaramba
-trinity-yakuake
-trinity-konsole
 
-# Network & Internet
-trinity-akregator
-trinity-kftpgrabber
+# --- Network & Internet ---
+trinity-konqueror
 trinity-konversation
-trinity-kopete
+trinity-kftpgrabber
+trinity-akregator
 trinity-kmyfirewall
 trinity-knutclient
 trinity-kvpnc
+trinity-klinkstatus
 trinity-knmap
 trinity-tork
 trinity-kbiff
+trinity-kppplog
+trinity-kppp
+trinity-kopete
 
-# Multimedia (Audio/Video/Graphics)
+# --- Multimedia ---
 trinity-amarok
+trinity-arts
+trinity-arts-devel
 trinity-codeine
 trinity-digikam
 trinity-gwenview
-trinity-kcoloredit
-trinity-kimagemapeditor
 trinity-kplayer
+trinity-kmix
+trinity-krec
+trinity-kscd
+trinity-kaboodle
+trinity-noatun
+trinity-kmid
+trinity-kmidi
 trinity-kstreamripper
+trinity-mplayerthumbs
 trinity-ksayit
 trinity-kttsd
 trinity-kttsd-contrib-plugins
-trinity-mplayerthumbs
-trinity-potracegui
 
-# Office, Text Editors & Development
+# --- Office & Productivity ---
+trinity-koffice-chalk
+trinity-koffice-i18n-British
+trinity-kaddressbook
+trinity-korganizer
+trinity-kword
+trinity-kspread
+trinity-kpresenter
+trinity-kchart
+trinity-kformula
+trinity-kivio
+trinity-kugar
+trinity-kplato
+trinity-kexi
+trinity-kbibtex
+trinity-kile
+trinity-kmymoney
+trinity-krecipes
+trinity-knotes
+
+# --- Editors & Development ---
 trinity-kate
 trinity-kate-plugins
 trinity-kwrite
-trinity-kaddressbook
-trinity-kbibtex
-trinity-kile
-trinity-koffice-chalk
-trinity-koffice-i18n-British
-trinity-krecipes
-trinity-kmymoney
-trinity-kpilot
 trinity-quanta
 trinity-kscope
 trinity-kxmleditor
 trinity-kjscmd
+trinity-kompare
+trinity-khexedit
 
-# Games & Education
+# --- Utilities & Tools ---
+trinity-dolphin
+trinity-krusader
+trinity-kappfinder
+trinity-krename
+trinity-kbackup
+trinity-keep
+trinity-kcalc
+trinity-kommando
+trinity-kcharselect
+trinity-kdepasswd
+trinity-kdf
+trinity-kdiskfree
+trinity-kfloppy
+trinity-kgpg
+trinity-ktimer
+trinity-kwalletmanager
+trinity-kdvi
+trinity-kghostview
+trinity-kpdf
+trinity-kfax
+trinity-kiconedit
+trinity-kcoloredit
+trinity-kimagemapeditor
+trinity-kpovmodeler
+trinity-krule
+trinity-ksnapshot
+trinity-kolourpaint
+trinity-potracegui
+trinity-kshutdown
+trinity-kvkbd
+trinity-klcddimmer
+trinity-kmousetool
+trinity-kmag
+trinity-kbstate
+trinity-kkbswitch
+trinity-ktip
+trinity-kspy
+trinity-kpilot
+
+# --- Games & Edutainment ---
 trinity-atlantik
+trinity-kfouleggs
+trinity-kig
+trinity-kolf
+trinity-konquest
+trinity-kasteroids
+trinity-katomic
+trinity-kbackgammon
+trinity-kbattleship
+trinity-kblackbox
+trinity-kbounce
+trinity-kenolaba
+trinity-kgoldrunner
+trinity-kjumpingcube
+trinity-klickety
+trinity-olines
+trinity-kmahjongg
+trinity-kmines
+trinity-knetwalk
+trinity-kpoker
+trinity-kreversi
+trinity-ksame
+trinity-kshisen
+trinity-ksirtet
+trinity-ksmiletris
+trinity-ksnake
+trinity-ksokoban
+trinity-kspaceduel
+trinity-ktron
+trinity-ktuberling
+trinity-kwin4
+trinity-lskat
+
+# --- Libraries & Bindings ---
+# (Usually pulled as dependencies, but listed to be safe)
+trinity-libkleopatra
+trinity-libkorundum0-ruby
+trinity-libpythonize0
+trinity-libpythonize-devel
+trinity-libtrinity-java
+trinity-libtrinity-jni
+trinity-libtrinity-jni-devel

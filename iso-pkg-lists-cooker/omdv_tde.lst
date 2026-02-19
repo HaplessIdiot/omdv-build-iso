@@ -1,0 +1,97 @@
+# Trinity Desktop Environment (TDE) - Full Install List
+
+# Meta Packages
+trinity-desktop
+trinity-desktop-all
+trinity-desktop-applications
+trinity-desktop-devel
+
+# Core Desktop & System
+trinity-arts
+trinity-arts-devel
+trinity-kcontrol
+trinity-kdesktop
+trinity-kdnssd
+trinity-khelpcenter
+trinity-kicker
+trinity-kiosktool
+trinity-kmenuedit
+trinity-kpersonalizer
+trinity-ksmserver
+trinity-ksplash
+trinity-ksysguard
+trinity-ksysguardd
+trinity-ktip
+trinity-tdm
+trinity-twin
+trinity-twin-style-fahrenheit
+trinity-twin-style-machbunt
+trinity-twin-style-mallory
+trinity-twin-style-suse2
+
+# File Management & Utilities
+trinity-dolphin
+trinity-konqueror
+trinity-krusader
+trinity-kappfinder
+trinity-kfind
+trinity-krename
+trinity-kbackup
+trinity-keep
+trinity-klinkstatus
+trinity-kmousetool
+trinity-kshutdown
+trinity-kvkbd
+trinity-kompose
+trinity-kpager
+trinity-kooldock
+trinity-superkaramba
+trinity-yakuake
+trinity-konsole
+
+# Network & Internet
+trinity-akregator
+trinity-kftpgrabber
+trinity-konversation
+trinity-kopete
+trinity-kmyfirewall
+trinity-knutclient
+trinity-kvpnc
+trinity-knmap
+trinity-tork
+trinity-kbiff
+
+# Multimedia (Audio/Video/Graphics)
+trinity-amarok
+trinity-codeine
+trinity-digikam
+trinity-gwenview
+trinity-kcoloredit
+trinity-kimagemapeditor
+trinity-kplayer
+trinity-kstreamripper
+trinity-ksayit
+trinity-kttsd
+trinity-kttsd-contrib-plugins
+trinity-mplayerthumbs
+trinity-potracegui
+
+# Office, Text Editors & Development
+trinity-kate
+trinity-kate-plugins
+trinity-kwrite
+trinity-kaddressbook
+trinity-kbibtex
+trinity-kile
+trinity-koffice-chalk
+trinity-koffice-i18n-British
+trinity-krecipes
+trinity-kmymoney
+trinity-kpilot
+trinity-quanta
+trinity-kscope
+trinity-kxmleditor
+trinity-kjscmd
+
+# Games & Education
+trinity-atlantik
